@@ -24,6 +24,7 @@ define('SBP_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('SBP_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 // Include necessary files
+require_once SBP_PLUGIN_PATH . 'functions.php';
 require_once SBP_PLUGIN_PATH . 'includes/functions.php';
 require_once SBP_PLUGIN_PATH . 'includes/activation.php';
 require_once SBP_PLUGIN_PATH . 'includes/deactivation.php';
@@ -50,12 +51,12 @@ function sbp_enqueue_assets()
     );
 
     // Enqueue frontend scripts (if any)
-    // wp_enqueue_script(
-    //     'sbp-script',
-    //     SBP_PLUGIN_URL . 'assets/js/script.js',
-    //     ['jquery'],
-    //     '1.0.0',
-    //     true
-    // );
+    wp_enqueue_script(
+        'sbp-script',
+        SBP_PLUGIN_URL . 'assets/js/script.js',
+        ['jquery'],
+        '1.0.0',
+        true
+    );
 }
 add_action('wp_enqueue_scripts', 'sbp_enqueue_assets');
