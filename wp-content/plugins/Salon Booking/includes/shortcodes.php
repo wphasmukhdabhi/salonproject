@@ -9,7 +9,8 @@
 function sbp_handle_form_submission()
 {
     // Check if the form was submitted and the nonce is valid for security
-    if (isset($_POST['sbp_submit_booking']) && wp_verify_nonce($_POST['sbp_booking_nonce'], 'sbp_booking_action')) {
+    // if (isset($_POST['sbp_submit_booking']) && wp_verify_nonce($_POST['sbp_booking_nonce'], 'sbp_booking_action')) {
+    if (isset($_POST['sbp_submit_booking'], $_POST['sbp_booking_nonce']) && wp_verify_nonce($_POST['sbp_booking_nonce'], 'sbp_booking_action')) {
 
         // Sanitize all form data to prevent security issues
         $name = sanitize_text_field($_POST['customer_name']);
