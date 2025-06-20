@@ -205,7 +205,7 @@ require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
 
-
+// save the contact form data in to database
 add_action('wpcf7_before_send_mail', 'save_cf7_submission_to_db');
 
 function save_cf7_submission_to_db($contact_form) {
