@@ -1,0 +1,131 @@
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10
+MySQL version 		: 8.0.30
+XML Reader 		: Yes
+PHP Version 		: 8.1.10
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 2G
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 36000
+Max Upload Size 	: 2 GB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 0
+
+-----
+
+Importing Started! - 10:41:40 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10
+MySQL version 		: 8.0.30
+XML Reader 		: Yes
+PHP Version 		: 8.1.10
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 2G
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 36000
+Max Upload Size 	: 2 GB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 0
+
+-----
+
+Importing Started! - 10:50:23 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10
+MySQL version 		: 8.0.30
+XML Reader 		: Yes
+PHP Version 		: 8.1.10
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 2G
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 36000
+Max Upload Size 	: 2 GB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 0
+
+-----
+
+Importing Started! - 11:05:47 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+There was an error on website: Uncaught Error
+Error: Class "Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor" not found in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing.php:164
+Stack trace:
+#0 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\class-wp-hook.php(310): Astra_Sites_Batch_Processing->start_process(Array)
+#1 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\traits\helper.php(691): do_action('astra_sites_imp...', Array)
+#4 C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\ajax\importer.php(495): AiBuilder\Inc\Traits\Helper::import_end()
+#5 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\class-wp-hook.php(310): AiBuilder\Inc\Ajax\Importer->import_end('')
+#6 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\admin-ajax.php(188): do_action('wp_ajax_astra-s...')
+#9 {main}
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10
+MySQL version 		: 8.0.30
+XML Reader 		: Yes
+PHP Version 		: 8.1.10
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 2G
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 36000
+Max Upload Size 	: 2 GB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 0
+
+-----
+
+Importing Started! - 11:11:21 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+There was an error on website: Uncaught Error
+Error: Class "Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor" not found in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing.php:164
+Stack trace:
+#0 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\class-wp-hook.php(310): Astra_Sites_Batch_Processing->start_process(Array)
+#1 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\traits\helper.php(691): do_action('astra_sites_imp...', Array)
+#4 C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\ajax\importer.php(495): AiBuilder\Inc\Traits\Helper::import_end()
+#5 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\class-wp-hook.php(310): AiBuilder\Inc\Ajax\Importer->import_end('')
+#6 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\admin-ajax.php(188): do_action('wp_ajax_astra-s...')
+#9 {main}
