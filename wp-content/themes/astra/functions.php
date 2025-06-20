@@ -204,3 +204,43 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+
+
+add_action('wpcf7_before_send_mail', 'save_cf7_submission_to_db');
+
+function save_cf7_submission_to_db($contact_form) {
+    $submission = WPCF7_Submission::get_instance();
+
+    if ($submission) {
+        $data = $submission->get_posted_data();
+
+        global $wpdb;
+        $table_name = $wpdb->prefix . 'cf7_submissions';
+
+        // Create the table if it doesn't exist
+        $charset_collate = $wpdb->get_charset_collate();
+        $sql = "CREATE TABLE IF NOT EXISTS $table_name (
+            id mediumint(9) NOT NULL AUTO_INCREMENT,
+            name text NOT NULL,
+            email text NOT NULL,
+            subject text NOT NULL,
+            message text,
+            submitted_at datetime DEFAULT CURRENT_TIMESTAMP NOT NULL,
+            PRIMARY KEY (id)
+        ) $charset_collate;";
+        
+        require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+        dbDelta($sql);
+
+        // Insert data into the table
+        $wpdb->insert(
+            $table_name,
+            [
+                'name'    => sanitize_text_field($data['your-name']),
+                'email'   => sanitize_email($data['your-email']),
+                'subject' => sanitize_text_field($data['your-subject']),
+                'message' => sanitize_textarea_field($data['your-message']),
+            ]
+        );
+    }
+}
