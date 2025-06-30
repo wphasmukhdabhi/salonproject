@@ -1,18 +1,30 @@
 <?php
-function filter_movies_by_category() {
-    $cat_id = intval($_POST['category_id']);
+function filter_movies_by_category()
+{
+    // $category_id  = intval($_POST['category_id']);
+    $category_id = isset($_POST['category_id']) ? intval($_POST['category_id']) : 0;
 
     $args = [
         'post_type' => 'movie',
         'posts_per_page' => -1,
-        'tax_query' => [
+        'post_status' => 'publish',
+        // 'tax_query' => [
+        //     [
+        //         'taxonomy' => 'movie_category',
+        //         'field' => 'term_id',
+        //         'terms' => $cat_id
+        //     ]
+        // ]
+    ];
+    if ($category_id > 0) {
+        $args['tax_query'] = [
             [
                 'taxonomy' => 'movie_category',
-                'field' => 'term_id',
-                'terms' => $cat_id
+                'field'    => 'term_id',
+                'terms'    => $category_id,
             ]
-        ]
-    ];
+        ];
+    }
 
     $query = new WP_Query($args);
 
@@ -23,7 +35,7 @@ function filter_movies_by_category() {
                 <?php the_post_thumbnail('medium'); ?>
                 <p><?php the_excerpt(); ?></p>
             </div>
-        <?php endwhile;
+<?php endwhile;
     else :
         echo '<p>No movies found.</p>';
     endif;
