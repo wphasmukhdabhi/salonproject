@@ -1,0 +1,22 @@
+/*
+Theme Name: Agency
+Theme URI: http://www.agencytheme.com/
+Description: Agency Theme
+Author: Firstname Lastname
+Author URI: http://www.agencytheme.com/
+Template: astra
+Version: 1.0.0
+*/
+.hero {
+    background: #111;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero a {
+    background: #3399ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
