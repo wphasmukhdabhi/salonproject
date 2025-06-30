@@ -1,0 +1,80 @@
+[30-Jun-2025 09:57:06 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 09:57:06 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\taxonomy.php on line 726
+[30-Jun-2025 09:57:07 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 1096
+[30-Jun-2025 09:57:07 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 1096
+[30-Jun-2025 09:57:08 UTC] PHP Fatal error:  Uncaught TypeError: preg_match_all(): Argument #2 ($subject) must be of type string, array given in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php:235
+Stack trace:
+#0 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php(235): preg_match_all('@\\[/?([^<>&/\\[\\...', Array, NULL)
+#1 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\menu-header.php(259): wptexturize(Array)
+#2 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\menu-header.php(302): _wp_menu_output(Array, Array)
+#3 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\admin-header.php(268): require('C:\\laragon\\www\\...')
+#4 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\plugins.php(637): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 235
+[30-Jun-2025 09:57:09 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 09:57:09 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\taxonomy.php on line 726
+[30-Jun-2025 09:57:12 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 09:57:12 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\taxonomy.php on line 726
+[30-Jun-2025 09:57:18 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 09:57:18 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\taxonomy.php on line 726
+[30-Jun-2025 09:57:18 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 1096
+[30-Jun-2025 09:57:18 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 1096
+[30-Jun-2025 09:57:19 UTC] PHP Fatal error:  Uncaught TypeError: preg_match_all(): Argument #2 ($subject) must be of type string, array given in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php:235
+Stack trace:
+#0 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php(235): preg_match_all('@\\[/?([^<>&/\\[\\...', Array, NULL)
+#1 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\menu-header.php(259): wptexturize(Array)
+#2 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\menu-header.php(302): _wp_menu_output(Array, Array)
+#3 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\admin-header.php(268): require('C:\\laragon\\www\\...')
+#4 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\plugins.php(637): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 235
+[30-Jun-2025 09:57:22 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 09:57:22 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\taxonomy.php on line 726
+[30-Jun-2025 09:58:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "M_PLUGIN_PATH" in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\movie-plugin\movie-plugin.php:15
+Stack trace:
+#0 C:\laragon\www\HAIRRAPBYYOYO\wp-settings.php(545): include_once()
+#1 C:\laragon\www\HAIRRAPBYYOYO\wp-config.php(106): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\HAIRRAPBYYOYO\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\admin.php(35): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\plugins.php(10): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\movie-plugin\movie-plugin.php on line 15
+[30-Jun-2025 09:58:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "M_PLUGIN_PATH" in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\movie-plugin\movie-plugin.php:15
+Stack trace:
+#0 C:\laragon\www\HAIRRAPBYYOYO\wp-settings.php(545): include_once()
+#1 C:\laragon\www\HAIRRAPBYYOYO\wp-config.php(106): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\HAIRRAPBYYOYO\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\HAIRRAPBYYOYO\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#4 C:\laragon\www\HAIRRAPBYYOYO\index.php(17): require('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\movie-plugin\movie-plugin.php on line 15
+[30-Jun-2025 09:59:39 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 09:59:39 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\taxonomy.php on line 726
+[30-Jun-2025 09:59:40 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 1096
+[30-Jun-2025 09:59:40 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 1096
+[30-Jun-2025 09:59:40 UTC] PHP Fatal error:  Uncaught TypeError: preg_match_all(): Argument #2 ($subject) must be of type string, array given in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php:235
+Stack trace:
+#0 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php(235): preg_match_all('@\\[/?([^<>&/\\[\\...', Array, NULL)
+#1 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\menu-header.php(259): wptexturize(Array)
+#2 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\menu-header.php(302): _wp_menu_output(Array, Array)
+#3 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\admin-header.php(268): require('C:\\laragon\\www\\...')
+#4 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\plugins.php(637): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 235
+[30-Jun-2025 09:59:42 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 09:59:42 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\taxonomy.php on line 726
+[30-Jun-2025 09:59:44 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 09:59:44 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\taxonomy.php on line 726
+[30-Jun-2025 10:03:04 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 10:03:06 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 1096
+[30-Jun-2025 10:03:06 UTC] PHP Fatal error:  Uncaught TypeError: preg_match_all(): Argument #2 ($subject) must be of type string, array given in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php:235
+Stack trace:
+#0 C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php(235): preg_match_all('@\\[/?([^<>&/\\[\\...', Array, NULL)
+#1 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\menu-header.php(259): wptexturize(Array)
+#2 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\menu-header.php(302): _wp_menu_output(Array, Array)
+#3 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\admin-header.php(268): require('C:\\laragon\\www\\...')
+#4 C:\laragon\www\HAIRRAPBYYOYO\wp-admin\plugins.php(637): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 235
+[30-Jun-2025 10:03:08 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 10:03:10 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
