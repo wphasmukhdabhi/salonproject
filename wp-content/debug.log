@@ -78,3 +78,9 @@ Stack trace:
   thrown in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\formatting.php on line 235
 [30-Jun-2025 10:03:08 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
 [30-Jun-2025 10:03:10 UTC] PHP Warning:  Array to string conversion in C:\laragon\www\HAIRRAPBYYOYO\wp-includes\post.php on line 2108
+[30-Jun-2025 10:19:32 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2344
+[30-Jun-2025 10:43:55 UTC] PHP Warning:  Undefined variable $terms in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\movie-plugin\includes\shortcode.php on line 11
+[30-Jun-2025 10:43:55 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\movie-plugin\includes\shortcode.php on line 11
+[30-Jun-2025 10:43:55 UTC] PHP Warning:  Undefined variable $terms in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\movie-plugin\includes\shortcode.php on line 11
+[30-Jun-2025 10:43:55 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\laragon\www\HAIRRAPBYYOYO\wp-content\plugins\movie-plugin\includes\shortcode.php on line 11
+[30-Jun-2025 10:44:04 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
