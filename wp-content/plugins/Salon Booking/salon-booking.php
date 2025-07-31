@@ -6,8 +6,6 @@
  * Version: 1.0
  * Author: Hasmukh Dabhi
  * Text Domain: salon-booking
- * Requires at least: 5.0
- * Requires PHP: 7.0
  * 
  */
 
